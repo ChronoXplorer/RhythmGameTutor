@@ -152,6 +152,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a27e1d3be7be0fb43b677089d6b71dbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  beatTempo: 120
+  songStart: 0
 --- !u!4 &360853
 Transform:
   m_ObjectHideFlags: 0
