@@ -10,13 +10,11 @@ public class ButtonController : MonoBehaviour
 
     public KeyCode keyToPress; //the key button that used to pressed
      
-    // Start is called before the first frame update
     void Start()
     {
         sRender = GetComponent<SpriteRenderer>();
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         if(Input.GetKeyDown(keyToPress))
