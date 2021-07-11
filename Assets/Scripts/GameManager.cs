@@ -9,10 +9,12 @@ public class GameManager : MonoBehaviour
     public bool musicStart;
 
     public BeatScroller beatScroll;
+
+    public static GameManager instance;
     
     void Start()
     {
-        
+        instance = this;
     }
     
     void Update()
@@ -27,5 +29,15 @@ public class GameManager : MonoBehaviour
                 theMusic.Play();
             }
         }
+    }
+
+    public void NoteHit()
+    {
+        Debug.Log("Perfect!");
+    }
+
+    public void NoteMiss()
+    {
+        Debug.Log("MISS");
     }
 }
