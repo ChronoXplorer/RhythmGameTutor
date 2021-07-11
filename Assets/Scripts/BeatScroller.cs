@@ -18,10 +18,12 @@ public class BeatScroller : MonoBehaviour
     {
         if(!songStart)
         {
+            /*
             if(Input.anyKeyDown)
             {
                 songStart = true;
             }
+            */
         }
         else
         {
